@@ -5,7 +5,7 @@ const Age = ({sortByValue}) => (
   <button 
     className="btn btn-primary age" 
     name="age" 
-    onClick={() => sortByValue('age', true)}>
+    onClick={() => sortByValue('age')}>
       Age
   </button>
 )
